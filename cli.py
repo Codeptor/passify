@@ -5,7 +5,7 @@ import getpass
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
-uri = "mongodb+srv://bhanu:iamBhanu%40911@passwordmanager.5wgae8x.mongodb.net/?retryWrites=true&w=majority&appName=passwordmanager"
+uri = 
 client = MongoClient(uri, server_api=ServerApi('1'))
 try:
     client.admin.command('ping')
